@@ -157,9 +157,6 @@ st.divider()
 # --- PREVIEW & DOWNLOAD SECTION ---
 st.header("2. Preview & Download")
 
-# Use an expander to show the raw HTML code if the user wants to see it
-with st.expander("👀 View Raw HTML Code"):
-    st.code(final_html, language='html')
 
 # Render the download button
 st.download_button(
