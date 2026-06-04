@@ -1,5 +1,8 @@
 import streamlit as st
 
+# THIS MUST BE THE VERY FIRST COMMAND AFTER IMPORT
+st.set_page_config(page_title="PortfolioBuilder", page_icon="🚀")
+
 # Set page configuration
 st.set_page_config(page_title="Instant Portfolio Builder", page_icon="🚀", layout="centered")
 
